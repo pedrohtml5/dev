@@ -27,7 +27,7 @@ const writeFile = (arrayElemet) => {
 app.post('/',(req, resp) => {
     
     writeFile(req.body);
-    
+    console.log(req.body);
     resp.send('<h1>Parabéns</h1>');  
 });
   
