@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+   
+    <title>Document</title>
+</head>
+<body>
+        <div class="container">
+            <h1>Formulário</h1>
+
+            <form action="http://localhost:3003" method="POST" id="formulario">
+               
+                <div class="container__NomeSenha">
+                
+                   <div>
+                        <label for="name">Nome completo</label>
+                        <input type="text" name="Nome" id="name">
+                    </div>
+                    <div class="age">
+                        <label for="idade">Idade</label>
+                        <input type="number" name="Idade" id="idade" >
+                    </div>
+                </div>
+
+                <hr>
+                <label for="cep">CEP</label>
+                <input type="number" name="CEP" id="cep">
+
+                <label for="">Sobre você</label>
+                <textarea name="Biografia" cols="30" rows="2"></textarea>
+
+                <div>
+                    <input type="radio" name="tipo" value="FrontEnd"> FrontEnd <br>
+                    <input type="radio" name="tipo" value="BackEnd"> BackEnd <br>
+                    <input type="radio" name="tipo" value="DevOps"> DevOps <br>
+                    <input type="radio" name="tipo" value="FullStack"> FullStack<br>
+                </div>
+                <hr>
+
+
+                <p>Qual o tipo de oportunidade você prefere ? </p>
+                <div>
+                    <input type="checkbox" name="trabalho" value="presencial" >Presencial
+                    <input type="checkbox" name="trabalho" value="Remoto" > Remoto
+                </div>
+
+                <select name="Estado" >
+                    <option value="ac">ACRE</option>
+                    <option value="ba">BAHIA</option>
+                    <option value="SP">SÃO PAULO</option>
+                </select>
+
+
+                <button>Incluir</button>
+            </form>
+        </div>
+</body>
+</html>
