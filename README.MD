@@ -6,7 +6,7 @@
     
     Para utilizar a aplicação, vá até a pasta do projeto e digite:
 
-        * node init -y
+        * npm init -y
         * npm i --save express@4.16.3 body-parser@1.18.2 -E
 
     Criar uma arquivo com o nome de "items.json" dentro da pasta data em assets/data
